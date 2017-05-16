@@ -27,7 +27,7 @@ RSpec.feature "AddToCarts", type: :feature, js: true do
     #   expect(page).to have_content 'My Cart (1)'
     # end
     
-    assert_selector('.cart-num', text: 'My Cart (5)')
+    assert_selector('.cart-num', text: 'My Cart (1)')
 
 
   end
